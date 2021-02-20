@@ -3,7 +3,7 @@
 
 Build: ```docker build -t myapp:latest .```
 
-Run: ```docker run -d --name dockercontainer -p 8080:8080 myapp:latest```
+Run: ```docker run -d --name mycontainer -p 8080:8080 myapp:latest```
 
 Display: http://localhost:8080
 
