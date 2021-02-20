@@ -1,9 +1,9 @@
 
 ## Lab 2:
 
-Build: ```docker build -t dockerapp:latest .```
+Build: ```docker build -t myapp:latest .```
 
-Run: ```docker run -d --name dockercontainer -p 8080:8080 dockerapp:latest```
+Run: ```docker run -d --name dockercontainer -p 8080:8080 myapp:latest```
 
 Display: http://localhost:8080
 
